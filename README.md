@@ -43,8 +43,9 @@ No additional configuration is required, but you can override or customize color
 ```
 - Assign **color62** to **experiments** folder. You can create your own folder and assign custom colors this way. The supported color keys are folderColor.color1 to folderColor.color83
 
-
+---
 ## Built-in Folders Names
+
 | Folder Name     | Folder Name     | Folder Name     | Folder Name     | Folder Name     | Folder Name     | Folder Name     |
 |-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | src             | test            | public          | assets          | components      | utils           | config          |
@@ -60,11 +61,12 @@ No additional configuration is required, but you can override or customize color
 | environments    | dev             | prod            | staging         | feature         | ai              | ml              |
 | nlp             | backup          | app             | myenv           | errors          | key             |                 |
 
-
+---
 ## 🤝 Contribution
+
 Feel free to open issues or pull requests on GitHub.
 
-
+---
 ## 🧑‍💻 Author
 Muneeb Ul Hassan
 AI Developer & Open Source Contributor
