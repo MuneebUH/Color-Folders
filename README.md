@@ -44,6 +44,11 @@ No additional configuration is required, but you can override or customize color
 - Assign **color62** to **experiments** folder. You can create your own folder and assign custom colors this way. The supported color keys are folderColor.color1 to folderColor.color83
 
 ---
+## Demo
+
+![Color Folders Demo](images/demo.gif)
+
+---
 ## Built-in Folders Names
 
 | Folder Name     | Folder Name     | Folder Name     | Folder Name     | Folder Name     | Folder Name     | Folder Name     |
