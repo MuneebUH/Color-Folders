@@ -69,5 +69,5 @@ Feel free to open issues or pull requests on GitHub.
 ---
 ## 🧑‍💻 Author
 Muneeb Ul Hassan
-AI Developer & Open Source Contributor
+AI Developer & Open Source Contributor.
 Connect with me on  [LinkedIn](https://linkedin.com/in/muneebulhassan-ml) ·  [GitHub](https://github.com/MuneebUH)
