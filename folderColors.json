@@ -1,0 +1,902 @@
+[
+  {
+    "id": "folderColor.color1",
+    "description": "Folder color 1",
+    "defaults": {
+      "light": "hsl(0.0, 70%, 50%)",
+      "dark": "hsl(0.0, 70%, 50%)",
+      "highContrast": "hsl(0.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color2",
+    "description": "Folder color 2",
+    "defaults": {
+      "light": "hsl(3.6, 70%, 50%)",
+      "dark": "hsl(3.6, 70%, 50%)",
+      "highContrast": "hsl(3.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color3",
+    "description": "Folder color 3",
+    "defaults": {
+      "light": "hsl(7.2, 70%, 50%)",
+      "dark": "hsl(7.2, 70%, 50%)",
+      "highContrast": "hsl(7.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color4",
+    "description": "Folder color 4",
+    "defaults": {
+      "light": "hsl(10.8, 70%, 50%)",
+      "dark": "hsl(10.8, 70%, 50%)",
+      "highContrast": "hsl(10.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color5",
+    "description": "Folder color 5",
+    "defaults": {
+      "light": "hsl(14.4, 70%, 50%)",
+      "dark": "hsl(14.4, 70%, 50%)",
+      "highContrast": "hsl(14.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color6",
+    "description": "Folder color 6",
+    "defaults": {
+      "light": "hsl(18.0, 70%, 50%)",
+      "dark": "hsl(18.0, 70%, 50%)",
+      "highContrast": "hsl(18.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color7",
+    "description": "Folder color 7",
+    "defaults": {
+      "light": "hsl(21.6, 70%, 50%)",
+      "dark": "hsl(21.6, 70%, 50%)",
+      "highContrast": "hsl(21.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color8",
+    "description": "Folder color 8",
+    "defaults": {
+      "light": "hsl(25.2, 70%, 50%)",
+      "dark": "hsl(25.2, 70%, 50%)",
+      "highContrast": "hsl(25.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color9",
+    "description": "Folder color 9",
+    "defaults": {
+      "light": "hsl(28.8, 70%, 50%)",
+      "dark": "hsl(28.8, 70%, 50%)",
+      "highContrast": "hsl(28.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color10",
+    "description": "Folder color 10",
+    "defaults": {
+      "light": "hsl(32.4, 70%, 50%)",
+      "dark": "hsl(32.4, 70%, 50%)",
+      "highContrast": "hsl(32.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color11",
+    "description": "Folder color 11",
+    "defaults": {
+      "light": "hsl(36.0, 70%, 50%)",
+      "dark": "hsl(36.0, 70%, 50%)",
+      "highContrast": "hsl(36.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color12",
+    "description": "Folder color 12",
+    "defaults": {
+      "light": "hsl(39.6, 70%, 50%)",
+      "dark": "hsl(39.6, 70%, 50%)",
+      "highContrast": "hsl(39.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color13",
+    "description": "Folder color 13",
+    "defaults": {
+      "light": "hsl(43.2, 70%, 50%)",
+      "dark": "hsl(43.2, 70%, 50%)",
+      "highContrast": "hsl(43.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color14",
+    "description": "Folder color 14",
+    "defaults": {
+      "light": "hsl(46.8, 70%, 50%)",
+      "dark": "hsl(46.8, 70%, 50%)",
+      "highContrast": "hsl(46.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color15",
+    "description": "Folder color 15",
+    "defaults": {
+      "light": "hsl(50.4, 70%, 50%)",
+      "dark": "hsl(50.4, 70%, 50%)",
+      "highContrast": "hsl(50.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color16",
+    "description": "Folder color 16",
+    "defaults": {
+      "light": "hsl(54.0, 70%, 50%)",
+      "dark": "hsl(54.0, 70%, 50%)",
+      "highContrast": "hsl(54.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color17",
+    "description": "Folder color 17",
+    "defaults": {
+      "light": "hsl(57.6, 70%, 50%)",
+      "dark": "hsl(57.6, 70%, 50%)",
+      "highContrast": "hsl(57.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color18",
+    "description": "Folder color 18",
+    "defaults": {
+      "light": "hsl(61.2, 70%, 50%)",
+      "dark": "hsl(61.2, 70%, 50%)",
+      "highContrast": "hsl(61.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color19",
+    "description": "Folder color 19",
+    "defaults": {
+      "light": "hsl(64.8, 70%, 50%)",
+      "dark": "hsl(64.8, 70%, 50%)",
+      "highContrast": "hsl(64.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color20",
+    "description": "Folder color 20",
+    "defaults": {
+      "light": "hsl(68.4, 70%, 50%)",
+      "dark": "hsl(68.4, 70%, 50%)",
+      "highContrast": "hsl(68.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color21",
+    "description": "Folder color 21",
+    "defaults": {
+      "light": "hsl(72.0, 70%, 50%)",
+      "dark": "hsl(72.0, 70%, 50%)",
+      "highContrast": "hsl(72.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color22",
+    "description": "Folder color 22",
+    "defaults": {
+      "light": "hsl(75.6, 70%, 50%)",
+      "dark": "hsl(75.6, 70%, 50%)",
+      "highContrast": "hsl(75.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color23",
+    "description": "Folder color 23",
+    "defaults": {
+      "light": "hsl(79.2, 70%, 50%)",
+      "dark": "hsl(79.2, 70%, 50%)",
+      "highContrast": "hsl(79.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color24",
+    "description": "Folder color 24",
+    "defaults": {
+      "light": "hsl(82.8, 70%, 50%)",
+      "dark": "hsl(82.8, 70%, 50%)",
+      "highContrast": "hsl(82.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color25",
+    "description": "Folder color 25",
+    "defaults": {
+      "light": "hsl(86.4, 70%, 50%)",
+      "dark": "hsl(86.4, 70%, 50%)",
+      "highContrast": "hsl(86.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color26",
+    "description": "Folder color 26",
+    "defaults": {
+      "light": "hsl(90.0, 70%, 50%)",
+      "dark": "hsl(90.0, 70%, 50%)",
+      "highContrast": "hsl(90.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color27",
+    "description": "Folder color 27",
+    "defaults": {
+      "light": "hsl(93.6, 70%, 50%)",
+      "dark": "hsl(93.6, 70%, 50%)",
+      "highContrast": "hsl(93.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color28",
+    "description": "Folder color 28",
+    "defaults": {
+      "light": "hsl(97.2, 70%, 50%)",
+      "dark": "hsl(97.2, 70%, 50%)",
+      "highContrast": "hsl(97.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color29",
+    "description": "Folder color 29",
+    "defaults": {
+      "light": "hsl(100.8, 70%, 50%)",
+      "dark": "hsl(100.8, 70%, 50%)",
+      "highContrast": "hsl(100.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color30",
+    "description": "Folder color 30",
+    "defaults": {
+      "light": "hsl(104.4, 70%, 50%)",
+      "dark": "hsl(104.4, 70%, 50%)",
+      "highContrast": "hsl(104.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color31",
+    "description": "Folder color 31",
+    "defaults": {
+      "light": "hsl(108.0, 70%, 50%)",
+      "dark": "hsl(108.0, 70%, 50%)",
+      "highContrast": "hsl(108.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color32",
+    "description": "Folder color 32",
+    "defaults": {
+      "light": "hsl(111.6, 70%, 50%)",
+      "dark": "hsl(111.6, 70%, 50%)",
+      "highContrast": "hsl(111.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color33",
+    "description": "Folder color 33",
+    "defaults": {
+      "light": "hsl(115.2, 70%, 50%)",
+      "dark": "hsl(115.2, 70%, 50%)",
+      "highContrast": "hsl(115.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color34",
+    "description": "Folder color 34",
+    "defaults": {
+      "light": "hsl(118.8, 70%, 50%)",
+      "dark": "hsl(118.8, 70%, 50%)",
+      "highContrast": "hsl(118.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color35",
+    "description": "Folder color 35",
+    "defaults": {
+      "light": "hsl(122.4, 70%, 50%)",
+      "dark": "hsl(122.4, 70%, 50%)",
+      "highContrast": "hsl(122.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color36",
+    "description": "Folder color 36",
+    "defaults": {
+      "light": "hsl(126.0, 70%, 50%)",
+      "dark": "hsl(126.0, 70%, 50%)",
+      "highContrast": "hsl(126.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color37",
+    "description": "Folder color 37",
+    "defaults": {
+      "light": "hsl(129.6, 70%, 50%)",
+      "dark": "hsl(129.6, 70%, 50%)",
+      "highContrast": "hsl(129.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color38",
+    "description": "Folder color 38",
+    "defaults": {
+      "light": "hsl(133.2, 70%, 50%)",
+      "dark": "hsl(133.2, 70%, 50%)",
+      "highContrast": "hsl(133.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color39",
+    "description": "Folder color 39",
+    "defaults": {
+      "light": "hsl(136.8, 70%, 50%)",
+      "dark": "hsl(136.8, 70%, 50%)",
+      "highContrast": "hsl(136.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color40",
+    "description": "Folder color 40",
+    "defaults": {
+      "light": "hsl(140.4, 70%, 50%)",
+      "dark": "hsl(140.4, 70%, 50%)",
+      "highContrast": "hsl(140.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color41",
+    "description": "Folder color 41",
+    "defaults": {
+      "light": "hsl(144.0, 70%, 50%)",
+      "dark": "hsl(144.0, 70%, 50%)",
+      "highContrast": "hsl(144.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color42",
+    "description": "Folder color 42",
+    "defaults": {
+      "light": "hsl(147.6, 70%, 50%)",
+      "dark": "hsl(147.6, 70%, 50%)",
+      "highContrast": "hsl(147.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color43",
+    "description": "Folder color 43",
+    "defaults": {
+      "light": "hsl(151.2, 70%, 50%)",
+      "dark": "hsl(151.2, 70%, 50%)",
+      "highContrast": "hsl(151.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color44",
+    "description": "Folder color 44",
+    "defaults": {
+      "light": "hsl(154.8, 70%, 50%)",
+      "dark": "hsl(154.8, 70%, 50%)",
+      "highContrast": "hsl(154.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color45",
+    "description": "Folder color 45",
+    "defaults": {
+      "light": "hsl(158.4, 70%, 50%)",
+      "dark": "hsl(158.4, 70%, 50%)",
+      "highContrast": "hsl(158.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color46",
+    "description": "Folder color 46",
+    "defaults": {
+      "light": "hsl(162.0, 70%, 50%)",
+      "dark": "hsl(162.0, 70%, 50%)",
+      "highContrast": "hsl(162.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color47",
+    "description": "Folder color 47",
+    "defaults": {
+      "light": "hsl(165.6, 70%, 50%)",
+      "dark": "hsl(165.6, 70%, 50%)",
+      "highContrast": "hsl(165.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color48",
+    "description": "Folder color 48",
+    "defaults": {
+      "light": "hsl(169.2, 70%, 50%)",
+      "dark": "hsl(169.2, 70%, 50%)",
+      "highContrast": "hsl(169.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color49",
+    "description": "Folder color 49",
+    "defaults": {
+      "light": "hsl(172.8, 70%, 50%)",
+      "dark": "hsl(172.8, 70%, 50%)",
+      "highContrast": "hsl(172.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color50",
+    "description": "Folder color 50",
+    "defaults": {
+      "light": "hsl(176.4, 70%, 50%)",
+      "dark": "hsl(176.4, 70%, 50%)",
+      "highContrast": "hsl(176.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color51",
+    "description": "Folder color 51",
+    "defaults": {
+      "light": "hsl(180.0, 70%, 50%)",
+      "dark": "hsl(180.0, 70%, 50%)",
+      "highContrast": "hsl(180.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color52",
+    "description": "Folder color 52",
+    "defaults": {
+      "light": "hsl(183.6, 70%, 50%)",
+      "dark": "hsl(183.6, 70%, 50%)",
+      "highContrast": "hsl(183.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color53",
+    "description": "Folder color 53",
+    "defaults": {
+      "light": "hsl(187.2, 70%, 50%)",
+      "dark": "hsl(187.2, 70%, 50%)",
+      "highContrast": "hsl(187.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color54",
+    "description": "Folder color 54",
+    "defaults": {
+      "light": "hsl(190.8, 70%, 50%)",
+      "dark": "hsl(190.8, 70%, 50%)",
+      "highContrast": "hsl(190.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color55",
+    "description": "Folder color 55",
+    "defaults": {
+      "light": "hsl(194.4, 70%, 50%)",
+      "dark": "hsl(194.4, 70%, 50%)",
+      "highContrast": "hsl(194.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color56",
+    "description": "Folder color 56",
+    "defaults": {
+      "light": "hsl(198.0, 70%, 50%)",
+      "dark": "hsl(198.0, 70%, 50%)",
+      "highContrast": "hsl(198.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color57",
+    "description": "Folder color 57",
+    "defaults": {
+      "light": "hsl(201.6, 70%, 50%)",
+      "dark": "hsl(201.6, 70%, 50%)",
+      "highContrast": "hsl(201.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color58",
+    "description": "Folder color 58",
+    "defaults": {
+      "light": "hsl(205.2, 70%, 50%)",
+      "dark": "hsl(205.2, 70%, 50%)",
+      "highContrast": "hsl(205.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color59",
+    "description": "Folder color 59",
+    "defaults": {
+      "light": "hsl(208.8, 70%, 50%)",
+      "dark": "hsl(208.8, 70%, 50%)",
+      "highContrast": "hsl(208.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color60",
+    "description": "Folder color 60",
+    "defaults": {
+      "light": "hsl(212.4, 70%, 50%)",
+      "dark": "hsl(212.4, 70%, 50%)",
+      "highContrast": "hsl(212.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color61",
+    "description": "Folder color 61",
+    "defaults": {
+      "light": "hsl(216.0, 70%, 50%)",
+      "dark": "hsl(216.0, 70%, 50%)",
+      "highContrast": "hsl(216.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color62",
+    "description": "Folder color 62",
+    "defaults": {
+      "light": "hsl(219.6, 70%, 50%)",
+      "dark": "hsl(219.6, 70%, 50%)",
+      "highContrast": "hsl(219.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color63",
+    "description": "Folder color 63",
+    "defaults": {
+      "light": "hsl(223.2, 70%, 50%)",
+      "dark": "hsl(223.2, 70%, 50%)",
+      "highContrast": "hsl(223.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color64",
+    "description": "Folder color 64",
+    "defaults": {
+      "light": "hsl(226.8, 70%, 50%)",
+      "dark": "hsl(226.8, 70%, 50%)",
+      "highContrast": "hsl(226.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color65",
+    "description": "Folder color 65",
+    "defaults": {
+      "light": "hsl(230.4, 70%, 50%)",
+      "dark": "hsl(230.4, 70%, 50%)",
+      "highContrast": "hsl(230.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color66",
+    "description": "Folder color 66",
+    "defaults": {
+      "light": "hsl(234.0, 70%, 50%)",
+      "dark": "hsl(234.0, 70%, 50%)",
+      "highContrast": "hsl(234.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color67",
+    "description": "Folder color 67",
+    "defaults": {
+      "light": "hsl(237.6, 70%, 50%)",
+      "dark": "hsl(237.6, 70%, 50%)",
+      "highContrast": "hsl(237.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color68",
+    "description": "Folder color 68",
+    "defaults": {
+      "light": "hsl(241.2, 70%, 50%)",
+      "dark": "hsl(241.2, 70%, 50%)",
+      "highContrast": "hsl(241.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color69",
+    "description": "Folder color 69",
+    "defaults": {
+      "light": "hsl(244.8, 70%, 50%)",
+      "dark": "hsl(244.8, 70%, 50%)",
+      "highContrast": "hsl(244.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color70",
+    "description": "Folder color 70",
+    "defaults": {
+      "light": "hsl(248.4, 70%, 50%)",
+      "dark": "hsl(248.4, 70%, 50%)",
+      "highContrast": "hsl(248.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color71",
+    "description": "Folder color 71",
+    "defaults": {
+      "light": "hsl(252.0, 70%, 50%)",
+      "dark": "hsl(252.0, 70%, 50%)",
+      "highContrast": "hsl(252.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color72",
+    "description": "Folder color 72",
+    "defaults": {
+      "light": "hsl(255.6, 70%, 50%)",
+      "dark": "hsl(255.6, 70%, 50%)",
+      "highContrast": "hsl(255.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color73",
+    "description": "Folder color 73",
+    "defaults": {
+      "light": "hsl(259.2, 70%, 50%)",
+      "dark": "hsl(259.2, 70%, 50%)",
+      "highContrast": "hsl(259.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color74",
+    "description": "Folder color 74",
+    "defaults": {
+      "light": "hsl(262.8, 70%, 50%)",
+      "dark": "hsl(262.8, 70%, 50%)",
+      "highContrast": "hsl(262.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color75",
+    "description": "Folder color 75",
+    "defaults": {
+      "light": "hsl(266.4, 70%, 50%)",
+      "dark": "hsl(266.4, 70%, 50%)",
+      "highContrast": "hsl(266.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color76",
+    "description": "Folder color 76",
+    "defaults": {
+      "light": "hsl(270.0, 70%, 50%)",
+      "dark": "hsl(270.0, 70%, 50%)",
+      "highContrast": "hsl(270.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color77",
+    "description": "Folder color 77",
+    "defaults": {
+      "light": "hsl(273.6, 70%, 50%)",
+      "dark": "hsl(273.6, 70%, 50%)",
+      "highContrast": "hsl(273.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color78",
+    "description": "Folder color 78",
+    "defaults": {
+      "light": "hsl(277.2, 70%, 50%)",
+      "dark": "hsl(277.2, 70%, 50%)",
+      "highContrast": "hsl(277.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color79",
+    "description": "Folder color 79",
+    "defaults": {
+      "light": "hsl(280.8, 70%, 50%)",
+      "dark": "hsl(280.8, 70%, 50%)",
+      "highContrast": "hsl(280.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color80",
+    "description": "Folder color 80",
+    "defaults": {
+      "light": "hsl(284.4, 70%, 50%)",
+      "dark": "hsl(284.4, 70%, 50%)",
+      "highContrast": "hsl(284.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color81",
+    "description": "Folder color 81",
+    "defaults": {
+      "light": "hsl(288.0, 70%, 50%)",
+      "dark": "hsl(288.0, 70%, 50%)",
+      "highContrast": "hsl(288.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color82",
+    "description": "Folder color 82",
+    "defaults": {
+      "light": "hsl(291.6, 70%, 50%)",
+      "dark": "hsl(291.6, 70%, 50%)",
+      "highContrast": "hsl(291.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color83",
+    "description": "Folder color 83",
+    "defaults": {
+      "light": "hsl(295.2, 70%, 50%)",
+      "dark": "hsl(295.2, 70%, 50%)",
+      "highContrast": "hsl(295.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color84",
+    "description": "Folder color 84",
+    "defaults": {
+      "light": "hsl(298.8, 70%, 50%)",
+      "dark": "hsl(298.8, 70%, 50%)",
+      "highContrast": "hsl(298.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color85",
+    "description": "Folder color 85",
+    "defaults": {
+      "light": "hsl(302.4, 70%, 50%)",
+      "dark": "hsl(302.4, 70%, 50%)",
+      "highContrast": "hsl(302.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color86",
+    "description": "Folder color 86",
+    "defaults": {
+      "light": "hsl(306.0, 70%, 50%)",
+      "dark": "hsl(306.0, 70%, 50%)",
+      "highContrast": "hsl(306.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color87",
+    "description": "Folder color 87",
+    "defaults": {
+      "light": "hsl(309.6, 70%, 50%)",
+      "dark": "hsl(309.6, 70%, 50%)",
+      "highContrast": "hsl(309.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color88",
+    "description": "Folder color 88",
+    "defaults": {
+      "light": "hsl(313.2, 70%, 50%)",
+      "dark": "hsl(313.2, 70%, 50%)",
+      "highContrast": "hsl(313.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color89",
+    "description": "Folder color 89",
+    "defaults": {
+      "light": "hsl(316.8, 70%, 50%)",
+      "dark": "hsl(316.8, 70%, 50%)",
+      "highContrast": "hsl(316.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color90",
+    "description": "Folder color 90",
+    "defaults": {
+      "light": "hsl(320.4, 70%, 50%)",
+      "dark": "hsl(320.4, 70%, 50%)",
+      "highContrast": "hsl(320.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color91",
+    "description": "Folder color 91",
+    "defaults": {
+      "light": "hsl(324.0, 70%, 50%)",
+      "dark": "hsl(324.0, 70%, 50%)",
+      "highContrast": "hsl(324.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color92",
+    "description": "Folder color 92",
+    "defaults": {
+      "light": "hsl(327.6, 70%, 50%)",
+      "dark": "hsl(327.6, 70%, 50%)",
+      "highContrast": "hsl(327.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color93",
+    "description": "Folder color 93",
+    "defaults": {
+      "light": "hsl(331.2, 70%, 50%)",
+      "dark": "hsl(331.2, 70%, 50%)",
+      "highContrast": "hsl(331.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color94",
+    "description": "Folder color 94",
+    "defaults": {
+      "light": "hsl(334.8, 70%, 50%)",
+      "dark": "hsl(334.8, 70%, 50%)",
+      "highContrast": "hsl(334.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color95",
+    "description": "Folder color 95",
+    "defaults": {
+      "light": "hsl(338.4, 70%, 50%)",
+      "dark": "hsl(338.4, 70%, 50%)",
+      "highContrast": "hsl(338.4, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color96",
+    "description": "Folder color 96",
+    "defaults": {
+      "light": "hsl(342.0, 70%, 50%)",
+      "dark": "hsl(342.0, 70%, 50%)",
+      "highContrast": "hsl(342.0, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color97",
+    "description": "Folder color 97",
+    "defaults": {
+      "light": "hsl(345.6, 70%, 50%)",
+      "dark": "hsl(345.6, 70%, 50%)",
+      "highContrast": "hsl(345.6, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color98",
+    "description": "Folder color 98",
+    "defaults": {
+      "light": "hsl(349.2, 70%, 50%)",
+      "dark": "hsl(349.2, 70%, 50%)",
+      "highContrast": "hsl(349.2, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color99",
+    "description": "Folder color 99",
+    "defaults": {
+      "light": "hsl(352.8, 70%, 50%)",
+      "dark": "hsl(352.8, 70%, 50%)",
+      "highContrast": "hsl(352.8, 70%, 50%)"
+    }
+  },
+  {
+    "id": "folderColor.color100",
+    "description": "Folder color 100",
+    "defaults": {
+      "light": "hsl(356.4, 70%, 50%)",
+      "dark": "hsl(356.4, 70%, 50%)",
+      "highContrast": "hsl(356.4, 70%, 50%)"
+    }
+  }
+]
