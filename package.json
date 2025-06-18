@@ -7,11 +7,15 @@
   "engines": {
     "vscode": "^1.101.0"
   },
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
+  
   "author": {
     "name": "Muneeb Ul Hassan",
     "email": "muneebulhassan146@gmail.com"
   },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/MuneebUH/Color-Folders"
@@ -21,104 +25,686 @@
   },
   "homepage": "https://github.com/MuneebUH/Color-Folders",
   "icon": "images/Color Folders_VScode extension by Muneeb Ul Hassan.png",
-  "activationEvents": ["onStartupFinished"], 
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
-  "configuration": {
-    "title": "Color Folders",
-    "properties": {
-      "folderColorizer.folderColorOverrides": {
-        "type": "object",
-        "description": "Map folder names to color IDs (e.g., folderColor.color1). These override or extend built-in folder mappings.",
-        "default": {}
+    "configuration": {
+      "title": "Color Folders",
+      "properties": {
+        "folderColorizer.folderColorOverrides": {
+          "type": "object",
+          "description": "Map folder names to color IDs (e.g., folderColor.color1). These override or extend built-in folder mappings.",
+          "default": {}
+        }
       }
-    }
-  }, 
-
+    },
     "colors": [
-      { "id": "folderColor.color1", "description": "Color for src", "defaults": { "dark": "#FF6F61", "light": "#FF6F61" } },
-      { "id": "folderColor.color2", "description": "Color for test", "defaults": { "dark": "#6B5B95", "light": "#6B5B95" } },
-      { "id": "folderColor.color3", "description": "Color for public", "defaults": { "dark": "#88B04B", "light": "#88B04B" } },
-      { "id": "folderColor.color4", "description": "Color for assets", "defaults": { "dark": "#F7CAC9", "light": "#F7CAC9" } },
-      { "id": "folderColor.color5", "description": "Color for components", "defaults": { "dark": "#92A8D1", "light": "#92A8D1" } },
-      { "id": "folderColor.color6", "description": "Color for utils", "defaults": { "dark": "#955251", "light": "#955251" } },
-      { "id": "folderColor.color7", "description": "Color for config", "defaults": { "dark": "#B565A7", "light": "#B565A7" } },
-      { "id": "folderColor.color8", "description": "Color for scripts", "defaults": { "dark": "#009B77", "light": "#009B77" } },
-      { "id": "folderColor.color9", "description": "Color for build", "defaults": { "dark": "#DD4124", "light": "#DD4124" } },
-      { "id": "folderColor.color10", "description": "Color for dist", "defaults": { "dark": "#D65076", "light": "#D65076" } },
-      { "id": "folderColor.color11", "description": "Color for notebooks", "defaults": { "dark": "#45B8AC", "light": "#45B8AC" } },
-      { "id": "folderColor.color12", "description": "Color for data", "defaults": { "dark": "#EFC050", "light": "#EFC050" } },
-      { "id": "folderColor.color13", "description": "Color for models", "defaults": { "dark": "#5B5EA6", "light": "#5B5EA6" } },
-      { "id": "folderColor.color14", "description": "Color for logs", "defaults": { "dark": "#9B2335", "light": "#9B2335" } },
-      { "id": "folderColor.color15", "description": "Color for venv", "defaults": { "dark": "#DFCFBE", "light": "#DFCFBE" } },
-      { "id": "folderColor.color16", "description": "Color for routes", "defaults": { "dark": "#BC243C", "light": "#BC243C" } },
-      { "id": "folderColor.color17", "description": "Color for lib", "defaults": { "dark": "#5B2C6F", "light": "#5B2C6F" } },
-      { "id": "folderColor.color18", "description": "Color for services", "defaults": { "dark": "#98B4D4", "light": "#98B4D4" } },
-      { "id": "folderColor.color19", "description": "Color for middleware", "defaults": { "dark": "#C94C4C", "light": "#C94C4C" } },
-      { "id": "folderColor.color20", "description": "Color for api", "defaults": { "dark": "#FFA07A", "light": "#FFA07A" } },
-      { "id": "folderColor.color21", "description": "Color for .github", "defaults": { "dark": "#6C3483", "light": "#6C3483" } },
-      { "id": "folderColor.color22", "description": "Color for .vscode", "defaults": { "dark": "#1F618D", "light": "#1F618D" } },
-      { "id": "folderColor.color23", "description": "Color for .devcontainer", "defaults": { "dark": "#117A65", "light": "#117A65" } },
-      { "id": "folderColor.color24", "description": "Color for chroma_db", "defaults": { "dark": "#0694f3", "light": "#0a8ee6" } },
-      { "id": "folderColor.color25", "description": "Color for frontend", "defaults": { "dark": "#2874A6", "light": "#2874A6" } },
-      { "id": "folderColor.color26", "description": "Color for design", "defaults": { "dark": "#5D6D7E", "light": "#5D6D7E" } },
-      { "id": "folderColor.color27", "description": "Color for docs", "defaults": { "dark": "#F39C12", "light": "#F39C12" } },
-      { "id": "folderColor.color28", "description": "Color for research", "defaults": { "dark": "#2ECC71", "light": "#2ECC71" } },
-      { "id": "folderColor.color29", "description": "Color for styles", "defaults": { "dark": "#8E44AD", "light": "#8E44AD" } },
-      { "id": "folderColor.color30", "description": "Color for themes", "defaults": { "dark": "#2471A3", "light": "#2471A3" } },
-      { "id": "folderColor.color31", "description": "Color for source", "defaults": { "dark": "#DC7633", "light": "#DC7633" } },
-      { "id": "folderColor.color32", "description": "Color for store", "defaults": { "dark": "#B03A2E", "light": "#B03A2E" } },
-      { "id": "folderColor.color33", "description": "Color for pages", "defaults": { "dark": "#0E6655", "light": "#0E6655" } },
-      { "id": "folderColor.color34", "description": "Color for layouts", "defaults": { "dark": "#CA6F1E", "light": "#CA6F1E" } },
-      { "id": "folderColor.color35", "description": "Color for server", "defaults": { "dark": "#2980B9", "light": "#2980B9" } },
-      { "id": "folderColor.color36", "description": "Color for env", "defaults": { "dark": "#2874A6", "light": "#2874A6" } },
-      { "id": "folderColor.color37", "description": "Color for shared", "defaults": { "dark": "#117864", "light": "#117864" } },
-      { "id": "folderColor.color38", "description": "Color for artifacts", "defaults": { "dark": "#F1C40F", "light": "#F1C40F" } },
-      { "id": "folderColor.color39", "description": "Color for bin", "defaults": { "dark": "#58D68D", "light": "#58D68D" } },
-      { "id": "folderColor.color40", "description": "Color for examples", "defaults": { "dark": "#F06292", "light": "#F06292" } },
-      { "id": "folderColor.color41", "description": "Color for types", "defaults": { "dark": "#4A235A", "light": "#4A235A" } },
-      { "id": "folderColor.color42", "description": "Color for migrations", "defaults": { "dark": "#154360", "light": "#154360" } },
-      { "id": "folderColor.color43", "description": "Color for database", "defaults": { "dark": "#1ABC9C", "light": "#1ABC9C" } },
-      { "id": "folderColor.color44", "description": "Color for schemas", "defaults": { "dark": "#F1948A", "light": "#F1948A" } },
-      { "id": "folderColor.color45", "description": "Color for client", "defaults": { "dark": "#7D3C98", "light": "#7D3C98" } },
-      { "id": "folderColor.color46", "description": "Color for constants", "defaults": { "dark": "#B03A2E", "light": "#B03A2E" } },
-      { "id": "folderColor.color47", "description": "Color for uploads", "defaults": { "dark": "#3498DB", "light": "#3498DB" } },
-      { "id": "folderColor.color48", "description": "Color for downloads", "defaults": { "dark": "#9C640C", "light": "#9C640C" } },
-      { "id": "folderColor.color49", "description": "Color for static", "defaults": { "dark": "#273746", "light": "#273746" } },
-      { "id": "folderColor.color50", "description": "Color for images", "defaults": { "dark": "#839192", "light": "#839192" } },
-      { "id": "folderColor.color51", "description": "Color for icons", "defaults": { "dark": "#2874A6", "light": "#2874A6" } },
-      { "id": "folderColor.color52", "description": "Color for media", "defaults": { "dark": "#5D6D7E", "light": "#5D6D7E" } },
-      { "id": "folderColor.color53", "description": "Color for pipeline", "defaults": { "dark": "#34495E", "light": "#34495E" } },
-      { "id": "folderColor.color54", "description": "Color for seeds", "defaults": { "dark": "#73C6B6", "light": "#73C6B6" } },
-      { "id": "folderColor.color55", "description": "Color for tmp", "defaults": { "dark": "#E59866", "light": "#E59866" } },
-      { "id": "folderColor.color56", "description": "Color for videos", "defaults": { "dark": "#C0392B", "light": "#C0392B" } },
-      { "id": "folderColor.color57", "description": "Color for logging", "defaults": { "dark": "#16A085", "light": "#16A085" } },
-      { "id": "folderColor.color58", "description": "Color for tools", "defaults": { "dark": "#A04000", "light": "#A04000" } },
-      { "id": "folderColor.color59", "description": "Color for templates", "defaults": { "dark": "#3498DB", "light": "#3498DB" } },
-      { "id": "folderColor.color60", "description": "Color for third_party", "defaults": { "dark": "#4D5656", "light": "#4D5656" } },
-      { "id": "folderColor.color61", "description": "Color for monitoring", "defaults": { "dark": "#5DADE2", "light": "#5DADE2" } },
-      { "id": "folderColor.color62", "description": "Color for analytics", "defaults": { "dark": "#DC7633", "light": "#DC7633" } },
-      { "id": "folderColor.color63", "description": "Color for experiments", "defaults": { "dark": "#58D68D", "light": "#58D68D" } },
-      { "id": "folderColor.color64", "description": "Color for jobs", "defaults": { "dark": "#E67E22", "light": "#E67E22" } },
-      { "id": "folderColor.color65", "description": "Color for train", "defaults": { "dark": "#2E86C1", "light": "#2E86C1" } },
-      { "id": "folderColor.color66", "description": "Color for tasks", "defaults": { "dark": "#138D75", "light": "#138D75" } },
-      { "id": "folderColor.color67", "description": "Color for notes", "defaults": { "dark": "#F5B041", "light": "#F5B041" } },
-      { "id": "folderColor.color68", "description": "Color for val", "defaults": { "dark": "#E74C3C", "light": "#E74C3C" } },
-      { "id": "folderColor.color69", "description": "Color for diagrams", "defaults": { "dark": "#5DADE2", "light": "#5DADE2" } },
-      { "id": "folderColor.color70", "description": "Color for backend", "defaults": { "dark": "#943126", "light": "#943126" } },
-      { "id": "folderColor.color71", "description": "Color for environments", "defaults": { "dark": "#1D8348", "light": "#1D8348" } },
-      { "id": "folderColor.color72", "description": "Color for dev", "defaults": { "dark": "#1E8449", "light": "#1E8449" } },
-      { "id": "folderColor.color73", "description": "Color for prod", "defaults": { "dark": "#943126", "light": "#943126" } },
-      { "id": "folderColor.color74", "description": "Color for staging", "defaults": { "dark": "#884EA0", "light": "#884EA0" } },
-      { "id": "folderColor.color75", "description": "Color for feature", "defaults": { "dark": "#2874A6", "light": "#2874A6" } },
-      { "id": "folderColor.color76", "description": "Color for ai", "defaults": { "dark": "#F1948A", "light": "#F1948A" } },
-      { "id": "folderColor.color77", "description": "Color for ml", "defaults": { "dark": "#F39C12", "light": "#F39C12" } },
-      { "id": "folderColor.color78", "description": "Color for nlp", "defaults": { "dark": "#45B39D", "light": "#45B39D" } },
-      { "id": "folderColor.color79", "description": "Color for backup", "defaults": { "dark": "#1C2833", "light": "#1C2833" } },
-      { "id": "folderColor.color80", "description": "Color for app", "defaults": { "dark": "#2874A6", "light": "#2874A6" } },
-      { "id": "folderColor.color81", "description": "Color for myenv", "defaults": { "dark": "#2874A6", "light": "#2874A6" } },
-      { "id": "folderColor.color82", "description": "Color for errors", "defaults": { "dark": "#34495E", "light": "#34495E" } },
-      { "id": "folderColor.color83", "description": "Color for key", "defaults": { "dark": "#273746", "light": "#273746" } }
+      {
+        "id": "folderColor.color1",
+        "description": "Color for src",
+        "defaults": {
+          "dark": "#FF6F61",
+          "light": "#FF6F61"
+        }
+      },
+      {
+        "id": "folderColor.color2",
+        "description": "Color for test",
+        "defaults": {
+          "dark": "#6B5B95",
+          "light": "#6B5B95"
+        }
+      },
+      {
+        "id": "folderColor.color3",
+        "description": "Color for public",
+        "defaults": {
+          "dark": "#88B04B",
+          "light": "#88B04B"
+        }
+      },
+      {
+        "id": "folderColor.color4",
+        "description": "Color for assets",
+        "defaults": {
+          "dark": "#F7CAC9",
+          "light": "#F7CAC9"
+        }
+      },
+      {
+        "id": "folderColor.color5",
+        "description": "Color for components",
+        "defaults": {
+          "dark": "#92A8D1",
+          "light": "#92A8D1"
+        }
+      },
+      {
+        "id": "folderColor.color6",
+        "description": "Color for utils",
+        "defaults": {
+          "dark": "#955251",
+          "light": "#955251"
+        }
+      },
+      {
+        "id": "folderColor.color7",
+        "description": "Color for config",
+        "defaults": {
+          "dark": "#B565A7",
+          "light": "#B565A7"
+        }
+      },
+      {
+        "id": "folderColor.color8",
+        "description": "Color for scripts",
+        "defaults": {
+          "dark": "#009B77",
+          "light": "#009B77"
+        }
+      },
+      {
+        "id": "folderColor.color9",
+        "description": "Color for build",
+        "defaults": {
+          "dark": "#DD4124",
+          "light": "#DD4124"
+        }
+      },
+      {
+        "id": "folderColor.color10",
+        "description": "Color for dist",
+        "defaults": {
+          "dark": "#D65076",
+          "light": "#D65076"
+        }
+      },
+      {
+        "id": "folderColor.color11",
+        "description": "Color for notebooks",
+        "defaults": {
+          "dark": "#45B8AC",
+          "light": "#45B8AC"
+        }
+      },
+      {
+        "id": "folderColor.color12",
+        "description": "Color for data",
+        "defaults": {
+          "dark": "#EFC050",
+          "light": "#EFC050"
+        }
+      },
+      {
+        "id": "folderColor.color13",
+        "description": "Color for models",
+        "defaults": {
+          "dark": "#5B5EA6",
+          "light": "#5B5EA6"
+        }
+      },
+      {
+        "id": "folderColor.color14",
+        "description": "Color for logs",
+        "defaults": {
+          "dark": "#9B2335",
+          "light": "#9B2335"
+        }
+      },
+      {
+        "id": "folderColor.color15",
+        "description": "Color for venv",
+        "defaults": {
+          "dark": "#DFCFBE",
+          "light": "#DFCFBE"
+        }
+      },
+      {
+        "id": "folderColor.color16",
+        "description": "Color for routes",
+        "defaults": {
+          "dark": "#BC243C",
+          "light": "#BC243C"
+        }
+      },
+      {
+        "id": "folderColor.color17",
+        "description": "Color for lib",
+        "defaults": {
+          "dark": "#5B2C6F",
+          "light": "#5B2C6F"
+        }
+      },
+      {
+        "id": "folderColor.color18",
+        "description": "Color for services",
+        "defaults": {
+          "dark": "#98B4D4",
+          "light": "#98B4D4"
+        }
+      },
+      {
+        "id": "folderColor.color19",
+        "description": "Color for middleware",
+        "defaults": {
+          "dark": "#C94C4C",
+          "light": "#C94C4C"
+        }
+      },
+      {
+        "id": "folderColor.color20",
+        "description": "Color for api",
+        "defaults": {
+          "dark": "#FFA07A",
+          "light": "#FFA07A"
+        }
+      },
+      {
+        "id": "folderColor.color21",
+        "description": "Color for .github",
+        "defaults": {
+          "dark": "#6C3483",
+          "light": "#6C3483"
+        }
+      },
+      {
+        "id": "folderColor.color22",
+        "description": "Color for .vscode",
+        "defaults": {
+          "dark": "#1F618D",
+          "light": "#1F618D"
+        }
+      },
+      {
+        "id": "folderColor.color23",
+        "description": "Color for .devcontainer",
+        "defaults": {
+          "dark": "#117A65",
+          "light": "#117A65"
+        }
+      },
+      {
+        "id": "folderColor.color24",
+        "description": "Color for chroma_db",
+        "defaults": {
+          "dark": "#0694f3",
+          "light": "#0a8ee6"
+        }
+      },
+      {
+        "id": "folderColor.color25",
+        "description": "Color for frontend",
+        "defaults": {
+          "dark": "#2874A6",
+          "light": "#2874A6"
+        }
+      },
+      {
+        "id": "folderColor.color26",
+        "description": "Color for design",
+        "defaults": {
+          "dark": "#5D6D7E",
+          "light": "#5D6D7E"
+        }
+      },
+      {
+        "id": "folderColor.color27",
+        "description": "Color for docs",
+        "defaults": {
+          "dark": "#F39C12",
+          "light": "#F39C12"
+        }
+      },
+      {
+        "id": "folderColor.color28",
+        "description": "Color for research",
+        "defaults": {
+          "dark": "#2ECC71",
+          "light": "#2ECC71"
+        }
+      },
+      {
+        "id": "folderColor.color29",
+        "description": "Color for styles",
+        "defaults": {
+          "dark": "#8E44AD",
+          "light": "#8E44AD"
+        }
+      },
+      {
+        "id": "folderColor.color30",
+        "description": "Color for themes",
+        "defaults": {
+          "dark": "#2471A3",
+          "light": "#2471A3"
+        }
+      },
+      {
+        "id": "folderColor.color31",
+        "description": "Color for source",
+        "defaults": {
+          "dark": "#DC7633",
+          "light": "#DC7633"
+        }
+      },
+      {
+        "id": "folderColor.color32",
+        "description": "Color for store",
+        "defaults": {
+          "dark": "#B03A2E",
+          "light": "#B03A2E"
+        }
+      },
+      {
+        "id": "folderColor.color33",
+        "description": "Color for pages",
+        "defaults": {
+          "dark": "#0E6655",
+          "light": "#0E6655"
+        }
+      },
+      {
+        "id": "folderColor.color34",
+        "description": "Color for layouts",
+        "defaults": {
+          "dark": "#CA6F1E",
+          "light": "#CA6F1E"
+        }
+      },
+      {
+        "id": "folderColor.color35",
+        "description": "Color for server",
+        "defaults": {
+          "dark": "#2980B9",
+          "light": "#2980B9"
+        }
+      },
+      {
+        "id": "folderColor.color36",
+        "description": "Color for env",
+        "defaults": {
+          "dark": "#2874A6",
+          "light": "#2874A6"
+        }
+      },
+      {
+        "id": "folderColor.color37",
+        "description": "Color for shared",
+        "defaults": {
+          "dark": "#117864",
+          "light": "#117864"
+        }
+      },
+      {
+        "id": "folderColor.color38",
+        "description": "Color for artifacts",
+        "defaults": {
+          "dark": "#F1C40F",
+          "light": "#F1C40F"
+        }
+      },
+      {
+        "id": "folderColor.color39",
+        "description": "Color for bin",
+        "defaults": {
+          "dark": "#58D68D",
+          "light": "#58D68D"
+        }
+      },
+      {
+        "id": "folderColor.color40",
+        "description": "Color for examples",
+        "defaults": {
+          "dark": "#F06292",
+          "light": "#F06292"
+        }
+      },
+      {
+        "id": "folderColor.color41",
+        "description": "Color for types",
+        "defaults": {
+          "dark": "#4A235A",
+          "light": "#4A235A"
+        }
+      },
+      {
+        "id": "folderColor.color42",
+        "description": "Color for migrations",
+        "defaults": {
+          "dark": "#154360",
+          "light": "#154360"
+        }
+      },
+      {
+        "id": "folderColor.color43",
+        "description": "Color for database",
+        "defaults": {
+          "dark": "#1ABC9C",
+          "light": "#1ABC9C"
+        }
+      },
+      {
+        "id": "folderColor.color44",
+        "description": "Color for schemas",
+        "defaults": {
+          "dark": "#F1948A",
+          "light": "#F1948A"
+        }
+      },
+      {
+        "id": "folderColor.color45",
+        "description": "Color for client",
+        "defaults": {
+          "dark": "#7D3C98",
+          "light": "#7D3C98"
+        }
+      },
+      {
+        "id": "folderColor.color46",
+        "description": "Color for constants",
+        "defaults": {
+          "dark": "#B03A2E",
+          "light": "#B03A2E"
+        }
+      },
+      {
+        "id": "folderColor.color47",
+        "description": "Color for uploads",
+        "defaults": {
+          "dark": "#3498DB",
+          "light": "#3498DB"
+        }
+      },
+      {
+        "id": "folderColor.color48",
+        "description": "Color for downloads",
+        "defaults": {
+          "dark": "#9C640C",
+          "light": "#9C640C"
+        }
+      },
+      {
+        "id": "folderColor.color49",
+        "description": "Color for static",
+        "defaults": {
+          "dark": "#273746",
+          "light": "#273746"
+        }
+      },
+      {
+        "id": "folderColor.color50",
+        "description": "Color for images",
+        "defaults": {
+          "dark": "#839192",
+          "light": "#839192"
+        }
+      },
+      {
+        "id": "folderColor.color51",
+        "description": "Color for icons",
+        "defaults": {
+          "dark": "#2874A6",
+          "light": "#2874A6"
+        }
+      },
+      {
+        "id": "folderColor.color52",
+        "description": "Color for media",
+        "defaults": {
+          "dark": "#5D6D7E",
+          "light": "#5D6D7E"
+        }
+      },
+      {
+        "id": "folderColor.color53",
+        "description": "Color for pipeline",
+        "defaults": {
+          "dark": "#34495E",
+          "light": "#34495E"
+        }
+      },
+      {
+        "id": "folderColor.color54",
+        "description": "Color for seeds",
+        "defaults": {
+          "dark": "#73C6B6",
+          "light": "#73C6B6"
+        }
+      },
+      {
+        "id": "folderColor.color55",
+        "description": "Color for tmp",
+        "defaults": {
+          "dark": "#E59866",
+          "light": "#E59866"
+        }
+      },
+      {
+        "id": "folderColor.color56",
+        "description": "Color for videos",
+        "defaults": {
+          "dark": "#C0392B",
+          "light": "#C0392B"
+        }
+      },
+      {
+        "id": "folderColor.color57",
+        "description": "Color for logging",
+        "defaults": {
+          "dark": "#16A085",
+          "light": "#16A085"
+        }
+      },
+      {
+        "id": "folderColor.color58",
+        "description": "Color for tools",
+        "defaults": {
+          "dark": "#A04000",
+          "light": "#A04000"
+        }
+      },
+      {
+        "id": "folderColor.color59",
+        "description": "Color for templates",
+        "defaults": {
+          "dark": "#3498DB",
+          "light": "#3498DB"
+        }
+      },
+      {
+        "id": "folderColor.color60",
+        "description": "Color for third_party",
+        "defaults": {
+          "dark": "#4D5656",
+          "light": "#4D5656"
+        }
+      },
+      {
+        "id": "folderColor.color61",
+        "description": "Color for monitoring",
+        "defaults": {
+          "dark": "#5DADE2",
+          "light": "#5DADE2"
+        }
+      },
+      {
+        "id": "folderColor.color62",
+        "description": "Color for analytics",
+        "defaults": {
+          "dark": "#DC7633",
+          "light": "#DC7633"
+        }
+      },
+      {
+        "id": "folderColor.color63",
+        "description": "Color for experiments",
+        "defaults": {
+          "dark": "#58D68D",
+          "light": "#58D68D"
+        }
+      },
+      {
+        "id": "folderColor.color64",
+        "description": "Color for jobs",
+        "defaults": {
+          "dark": "#E67E22",
+          "light": "#E67E22"
+        }
+      },
+      {
+        "id": "folderColor.color65",
+        "description": "Color for train",
+        "defaults": {
+          "dark": "#2E86C1",
+          "light": "#2E86C1"
+        }
+      },
+      {
+        "id": "folderColor.color66",
+        "description": "Color for tasks",
+        "defaults": {
+          "dark": "#138D75",
+          "light": "#138D75"
+        }
+      },
+      {
+        "id": "folderColor.color67",
+        "description": "Color for notes",
+        "defaults": {
+          "dark": "#F5B041",
+          "light": "#F5B041"
+        }
+      },
+      {
+        "id": "folderColor.color68",
+        "description": "Color for val",
+        "defaults": {
+          "dark": "#E74C3C",
+          "light": "#E74C3C"
+        }
+      },
+      {
+        "id": "folderColor.color69",
+        "description": "Color for diagrams",
+        "defaults": {
+          "dark": "#5DADE2",
+          "light": "#5DADE2"
+        }
+      },
+      {
+        "id": "folderColor.color70",
+        "description": "Color for backend",
+        "defaults": {
+          "dark": "#943126",
+          "light": "#943126"
+        }
+      },
+      {
+        "id": "folderColor.color71",
+        "description": "Color for environments",
+        "defaults": {
+          "dark": "#1D8348",
+          "light": "#1D8348"
+        }
+      },
+      {
+        "id": "folderColor.color72",
+        "description": "Color for dev",
+        "defaults": {
+          "dark": "#1E8449",
+          "light": "#1E8449"
+        }
+      },
+      {
+        "id": "folderColor.color73",
+        "description": "Color for prod",
+        "defaults": {
+          "dark": "#943126",
+          "light": "#943126"
+        }
+      },
+      {
+        "id": "folderColor.color74",
+        "description": "Color for staging",
+        "defaults": {
+          "dark": "#884EA0",
+          "light": "#884EA0"
+        }
+      },
+      {
+        "id": "folderColor.color75",
+        "description": "Color for feature",
+        "defaults": {
+          "dark": "#2874A6",
+          "light": "#2874A6"
+        }
+      },
+      {
+        "id": "folderColor.color76",
+        "description": "Color for ai",
+        "defaults": {
+          "dark": "#F1948A",
+          "light": "#F1948A"
+        }
+      },
+      {
+        "id": "folderColor.color77",
+        "description": "Color for ml",
+        "defaults": {
+          "dark": "#F39C12",
+          "light": "#F39C12"
+        }
+      },
+      {
+        "id": "folderColor.color78",
+        "description": "Color for nlp",
+        "defaults": {
+          "dark": "#45B39D",
+          "light": "#45B39D"
+        }
+      },
+      {
+        "id": "folderColor.color79",
+        "description": "Color for backup",
+        "defaults": {
+          "dark": "#1C2833",
+          "light": "#1C2833"
+        }
+      },
+      {
+        "id": "folderColor.color80",
+        "description": "Color for app",
+        "defaults": {
+          "dark": "#2874A6",
+          "light": "#2874A6"
+        }
+      },
+      {
+        "id": "folderColor.color81",
+        "description": "Color for myenv",
+        "defaults": {
+          "dark": "#2874A6",
+          "light": "#2874A6"
+        }
+      },
+      {
+        "id": "folderColor.color82",
+        "description": "Color for errors",
+        "defaults": {
+          "dark": "#34495E",
+          "light": "#34495E"
+        }
+      },
+      {
+        "id": "folderColor.color83",
+        "description": "Color for key",
+        "defaults": {
+          "dark": "#273746",
+          "light": "#273746"
+        }
+      }
     ]
   },
   "scripts": {
@@ -136,16 +722,16 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.101.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
+    "@types/vscode": "^1.101.0",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
-    "esbuild": "^0.25.3",
-    "npm-run-all": "^4.1.5",
-    "typescript": "^5.8.3",
     "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.5.2"
+    "@vscode/test-electron": "^2.5.2",
+    "esbuild": "^0.25.3",
+    "eslint": "^9.25.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.8.3"
   }
 }
